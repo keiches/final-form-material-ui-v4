@@ -1,19 +1,24 @@
-# Final Form Material UI
+# Final Form Material UI v4
 [![NPM Version](https://img.shields.io/npm/v/final-form-material-ui.svg?style=flat-square)](https://www.npmjs.com/package/final-form-material-ui)
 [![NPM Downloads](https://img.shields.io/npm/dm/final-form-material-ui.svg?style=flat-square)](https://www.npmjs.com/package/final-form-material-ui)
+
+## Important
+final-form-material-ui-v4 is forked from [final-form-material-ui](https://github.com/Deadly0/final-form-material-ui), supporting [Material-UI](https://github.com/mui-org/material-ui) v4.
+
+---
 
 A set of wrapper components to facilitate using [Material-UI](https://github.com/mui-org/material-ui) with Final Form.
 
 ### Available fields
 ```jsx
-import {TextField, Checkbox, Radio, Select, Input} from 'final-form-material-ui';
+import {TextField, Checkbox, Radio, Select, Input} from 'final-form-material-ui-v4';
 ```
 
 ##### TextField
 ```jsx
 import React from 'react';
 import {Field} from 'react-final-form';
-import {TextField} from 'final-form-material-ui';
+import {TextField} from 'final-form-material-ui-v4';
 
 <Field
     name="domain"
@@ -29,7 +34,7 @@ import {TextField} from 'final-form-material-ui';
 ```jsx
 import React from 'react';
 import {Field} from 'react-final-form';
-import {Input} from 'final-form-material-ui';
+import {Input} from 'final-form-material-ui-v4';
 import InputAdornment from '@material-ui/core/InputAdornment';
 
 <Field
@@ -57,7 +62,7 @@ Additional props for `Field`:
 ```jsx
 import React from 'react';
 import {Field} from 'react-final-form';
-import {Select} from 'final-form-material-ui';
+import {Select} from 'final-form-material-ui-v4';
 import MenuItem from '@material-ui/core/MenuItem';
 
 <Field

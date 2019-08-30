@@ -1,10 +1,13 @@
+/* eslint-disable react/prop-types, react/jsx-filename-extension */
+
 import * as React from 'react';
 import {FieldRenderProps} from 'react-final-form';
 import Input from '@material-ui/core/Input';
 import FormHelperText from '@material-ui/core/FormHelperText';
 
+type InputFieldProps = FieldRenderProps<any, HTMLTextAreaElement | HTMLInputElement>;
 
-const InputWrapper: React.SFC<FieldRenderProps> = ({input: {name, onChange, value, ...restInput}, meta, ...rest}) => {
+const InputWrapper: React.ComponentType<InputFieldProps> = ({input: {name, onChange, value, ...restInput}, meta, ...rest}) => {
 	const showError = ((meta.submitError && !meta.dirtySinceLastSubmit) || meta.error) && meta.touched;
 
 	return (
@@ -19,9 +22,7 @@ const InputWrapper: React.SFC<FieldRenderProps> = ({input: {name, onChange, valu
 			/>
 
 			{showError &&
-				<FormHelperText>
-					{meta.error || meta.submitError}
-				</FormHelperText>
+				<FormHelperText>{meta.error || meta.submitError}</FormHelperText>
 			}
 		</>
 	);

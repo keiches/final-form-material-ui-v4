@@ -6,9 +6,9 @@ module.exports = {
 	mode: 'production',
 	output: {
 		path: path.resolve(__dirname, 'dist'),
-		filename: 'final-form-material-ui.min.js',
-		library: 'final-form-material-ui',
-		libraryTarget: 'umd',
+		filename: 'final-form-material-ui.min-v4.js',
+		library: 'final-form-material-ui-v4',
+    libraryTarget: 'umd'
 	},
 	module: {
 		rules: [
@@ -32,5 +32,6 @@ module.exports = {
 	externals: [
 		/^@material-ui/,
 		'react',
+		'react-dom'
 	],
 };
