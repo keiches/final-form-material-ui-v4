@@ -1,6 +1,6 @@
 {
   "name": "material-ui-final-form",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A set of wrapper components to facilitate using Material UI v4.x with Final Form",
   "main": "./dist/material-ui-final-form.min.js",
   "author": "Brian Kim <keiches@gmail.com>",
