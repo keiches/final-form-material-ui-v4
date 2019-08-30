@@ -6,15 +6,19 @@ import {FieldRenderProps} from 'react-final-form';
 
 type RadioFieldType = FieldRenderProps<any, HTMLInputElement>;
 
-const RadioWrapper: React.ComponentType<RadioFieldType> = ({input: {checked, value, name, onChange, ...restInput}, meta, ...rest}) => (
-	<Radio
-		{...rest}
-		name={name}
-		inputProps={restInput}
-		onChange={onChange}
-		checked={checked}
-		value={value}
-	/>
+const RadioWrapper: React.ComponentType<RadioFieldType> = ({
+                                                             input: {
+                                                               checked, value, name, onChange, ...restInput
+                                                             }, meta, ...rest
+                                                           }) => (
+  <Radio
+    {...rest}
+    name={name}
+    inputProps={restInput}
+    onChange={onChange}
+    checked={checked}
+    value={value}
+  />
 );
 
 export default RadioWrapper;

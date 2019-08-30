@@ -10,30 +10,32 @@ import {FieldRenderProps} from 'react-final-form';
 
 // eslint-disable-next-line flowtype/no-weak-types
 interface SelectWrapperProps extends FieldRenderProps<any, HTMLElement> {
-	label: string,
-	formControlProps: FormControlProps,
+  label: string,
+  formControlProps: FormControlProps,
 }
 
-const SelectWrapper: React.ComponentType<SelectWrapperProps> = ({input: {name, value, onChange, ...restInput}, meta, label, formControlProps, ...rest}) => {
-	const showError = ((meta.submitError && !meta.dirtySinceLastSubmit) || meta.error) && meta.touched;
+const SelectWrapper: React.ComponentType<SelectWrapperProps> = ({
+                                                                  input: {
+                                                                    name, value, onChange, ...restInput
+                                                                  }, meta, label, formControlProps, ...rest
+                                                                }) => {
+  const showError = ((meta.submitError && !meta.dirtySinceLastSubmit) || meta.error) && meta.touched;
 
-	return (
-		<FormControl {...formControlProps} error={showError}>
-			<InputLabel htmlFor={name}>{label}</InputLabel>
+  return (
+    <FormControl {...formControlProps} error={showError}>
+      <InputLabel htmlFor={name}>{label}</InputLabel>
 
-			<Select
-				{...rest}
-				name={name}
-				onChange={onChange}
-				inputProps={restInput}
-				value={value}
-			/>
+      <Select
+        {...rest}
+        name={name}
+        onChange={onChange}
+        inputProps={restInput}
+        value={value}
+      />
 
-			{showError &&
-				<FormHelperText>{meta.error || meta.submitError}</FormHelperText>
-			}
-		</FormControl>
-	);
+      {showError && <FormHelperText>{meta.error || meta.submitError}</FormHelperText>}
+    </FormControl>
+  );
 };
 
 export default SelectWrapper;
