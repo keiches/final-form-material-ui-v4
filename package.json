@@ -1,9 +1,9 @@
 {
-  "name": "final-form-material-ui-v4",
-  "version": "0.3.0-remake.2",
+  "name": "material-ui-final-form",
+  "version": "0.1.0",
   "description": "A set of wrapper components to facilitate using Material UI v4.x with Final Form",
-  "main": "./dist/final-form-material-ui-v4.min.js",
-  "author": "Igor Golovin <xdeadlyx@ya.ru>, Brian Kim <keiches@gmail.com>",
+  "main": "./dist/material-ui-final-form.min.js",
+  "author": "Brian Kim <keiches@gmail.com>",
   "license": "MIT",
   "scripts": {
     "build": "webpack --display-modules"
@@ -34,13 +34,14 @@
     "react",
     "final-form",
     "material-ui",
-    "final-form-material-ui-v4",
+    "final-form-material-ui",
+    "material-ui-final-form",
     "adapter"
   ],
-  "homepage": "https://github.com/keiches/final-form-material-ui-v4",
-  "bugs": "https://github.com/keiches/final-form-material-ui-v4/issues",
+  "homepage": "https://github.com/keiches/material-ui-final-form",
+  "bugs": "https://github.com/keiches/material-ui-final-form/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/keiches/final-form-material-ui-v4.git"
+    "url": "https://github.com/keiches/material-ui-final-form.git"
   }
 }
