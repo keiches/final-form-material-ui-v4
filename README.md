@@ -1,6 +1,7 @@
 # Material UI React Final Form
 [![NPM Version](https://img.shields.io/npm/v/material-ui-react-final-form.svg?style=flat-square)](https://www.npmjs.com/package/material-ui-react-final-form)
-[![NPM Downloads](https://img.shields.io/npm/dm/material-ui-react-final-form.svg?style=flat-square)](https://www.npmjs.com/package/material-ui-react-final-form)
+[![NPM Downloads](https://img.shields.io/npm/dm/material-ui-react-final-form.svg?style=flat-square)](https://npm-stat.com/charts.html?package=material-ui-react-final-form)
+[![Build Status](https://travis-ci.org/keiches/material-ui-react-final-form.svg?branch=master)](https://travis-ci.org/keiches/material-ui-react-final-form)
 
 ## Important
 material-ui-react-final-form is forked from [final-form-material-ui](https://github.com/Deadly0/final-form-material-ui), supporting [Material-UI](https://github.com/mui-org/material-ui) v4.
