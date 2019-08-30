@@ -6,8 +6,8 @@ module.exports = {
 	mode: 'production',
 	output: {
 		path: path.resolve(__dirname, 'dist'),
-		filename: 'material-ui-final-form.min.js',
-		library: 'material-ui-final-form',
+		filename: 'material-ui-react-final-form.min.js',
+		library: 'material-ui-react-final-form',
     libraryTarget: 'umd'
 	},
 	module: {

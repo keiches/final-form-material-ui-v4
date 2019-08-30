@@ -1,9 +1,9 @@
-# Material UI Final Form
-[![NPM Version](https://img.shields.io/npm/v/material-ui-final-form.svg?style=flat-square)](https://www.npmjs.com/package/material-ui-final-form)
-[![NPM Downloads](https://img.shields.io/npm/dm/material-ui-final-form.svg?style=flat-square)](https://www.npmjs.com/package/material-ui-final-form)
+# Material UI React Final Form
+[![NPM Version](https://img.shields.io/npm/v/material-ui-react-final-form.svg?style=flat-square)](https://www.npmjs.com/package/material-ui-react-final-form)
+[![NPM Downloads](https://img.shields.io/npm/dm/material-ui-react-final-form.svg?style=flat-square)](https://www.npmjs.com/package/material-ui-react-final-form)
 
 ## Important
-material-ui-final-form is forked from [final-form-material-ui](https://github.com/Deadly0/final-form-material-ui), supporting [Material-UI](https://github.com/mui-org/material-ui) v4.
+material-ui-react-final-form is forked from [final-form-material-ui](https://github.com/Deadly0/final-form-material-ui), supporting [Material-UI](https://github.com/mui-org/material-ui) v4.
 
 ---
 
@@ -11,14 +11,14 @@ A set of wrapper components to facilitate using [Material-UI](https://github.com
 
 ### Available fields
 ```jsx
-import {TextField, Checkbox, Radio, Select, Input} from 'material-ui-final-form';
+import {TextField, Checkbox, Radio, Select, Input} from 'material-ui-react-final-form';
 ```
 
 ##### TextField
 ```jsx
 import React from 'react';
 import {Field} from 'react-final-form';
-import {TextField} from 'material-ui-final-form';
+import {TextField} from 'material-ui-react-final-form';
 
 <Field
     name="domain"
@@ -34,7 +34,7 @@ import {TextField} from 'material-ui-final-form';
 ```jsx
 import React from 'react';
 import {Field} from 'react-final-form';
-import {Input} from 'material-ui-final-form';
+import {Input} from 'material-ui-react-final-form';
 import InputAdornment from '@material-ui/core/InputAdornment';
 
 <Field
@@ -62,7 +62,7 @@ Additional props for `Field`:
 ```jsx
 import React from 'react';
 import {Field} from 'react-final-form';
-import {Select} from 'material-ui-final-form';
+import {Select} from 'material-ui-react-final-form';
 import MenuItem from '@material-ui/core/MenuItem';
 
 <Field
