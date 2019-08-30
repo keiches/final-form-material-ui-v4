@@ -5,6 +5,10 @@
 ## Important
 material-ui-react-final-form is forked from [final-form-material-ui](https://github.com/Deadly0/final-form-material-ui), supporting [Material-UI](https://github.com/mui-org/material-ui) v4.
 
+### Warning
+
+material-ui-react-final-form is not fully tested yet!
+
 ---
 
 A set of wrapper components to facilitate using [Material-UI](https://github.com/mui-org/material-ui) with Final Form.
