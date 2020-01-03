@@ -1,6 +1,6 @@
 {
   "name": "material-ui-react-final-form",
-  "version": "0.1.4",
+  "version": "0.9.1",
   "description": "A set of wrapper components to facilitate using Material UI v4.x with Final Form",
   "main": "./dist/material-ui-react-final-form.min.js",
   "author": "Brian Kim <keiches@gmail.com>",
@@ -8,7 +8,9 @@
   "scripts": {
     "build": "webpack --display-modules"
   },
-  "engines" : { "node" : "^8 || ^10 || ^11 || ^12" },
+  "engines": {
+    "node": "^8 || ^10 || ^11 || ^12"
+  },
   "peerDependencies": {
     "@material-ui/core": ">= 4.0.0, < 5.0.0",
     "final-form": ">= 4.0.0, < 5.0.0",
@@ -16,11 +18,11 @@
     "react-final-form": ">= 6.0.0, < 7.0.0"
   },
   "devDependencies": {
-    "@material-ui/core": "^4.2.1",
-    "final-form": "^4.18.2",
+    "@material-ui/core": "^4.8.2",
+    "final-form": "^4.18.6",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-final-form": "^6.3.0",
+    "react-final-form": "^6.3.3",
     "ts-loader": "^6.0.4",
     "typescript": "^3.5.3",
     "webpack": "^4.36.1",
